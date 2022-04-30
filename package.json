@@ -19,8 +19,11 @@
 		"@mioe/eslint-config": "^0.1.0",
 		"@vitejs/plugin-vue": "^2.3.1",
 		"eslint": "^8.14.0",
+		"sass": "^1.51.0",
 		"typescript": "^4.5.4",
 		"vite": "^2.9.5",
-		"vue-tsc": "^0.34.7"
+		"vite-plugin-windicss": "^1.8.4",
+		"vue-tsc": "^0.34.7",
+		"windicss": "^3.5.1"
 	}
 }
