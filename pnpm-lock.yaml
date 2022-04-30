@@ -2,17 +2,19 @@ lockfileVersion: 5.3
 
 specifiers:
   '@mioe/eslint-config': ^0.1.0
+  '@mioe/packages': ^0.0.6
   '@vitejs/plugin-vue': ^2.3.1
   eslint: ^8.14.0
   sass: ^1.51.0
-  typescript: ^4.5.4
-  vite: ^2.9.5
+  typescript: ^4.6.4
+  vite: ^2.9.6
   vite-plugin-windicss: ^1.8.4
-  vue: ^3.2.25
-  vue-tsc: ^0.34.7
+  vue: ^3.2.33
+  vue-tsc: ^0.34.11
   windicss: ^3.5.1
 
 dependencies:
+  '@mioe/packages': 0.0.6
   vue: 3.2.33
 
 devDependencies:
@@ -119,6 +121,13 @@ packages:
       - supports-color
       - typescript
     dev: true
+
+  /@mioe/packages/0.0.6:
+    resolution: {integrity: sha512-ShWQGP55g0MgV5zWpbRpM0SS5nfd363pV6Kwofvr7jV6mmMNvXfy0Z665JIM7b5+wkGAcPzdHhXnOn+7SxS7gw==}
+    engines: {node: '>=16', pnpm: '>=6'}
+    dependencies:
+      vue: 3.2.33
+    dev: false
 
   /@nodelib/fs.scandir/2.1.5:
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
@@ -337,7 +346,7 @@ packages:
       '@vue/shared': 3.2.33
       estree-walker: 2.0.2
       magic-string: 0.25.9
-      postcss: 8.4.12
+      postcss: 8.4.13
       source-map: 0.6.1
 
   /@vue/compiler-ssr/3.2.33:
@@ -1294,8 +1303,8 @@ packages:
       util-deprecate: 1.0.2
     dev: true
 
-  /postcss/8.4.12:
-    resolution: {integrity: sha512-lg6eITwYe9v6Hr5CncVbK70SoioNQIq81nsaG86ev5hAidQvmOeETBqs7jm43K2F5/Ley3ytDtriImV6TpNiSg==}
+  /postcss/8.4.13:
+    resolution: {integrity: sha512-jtL6eTBrza5MPzy8oJLFuUscHDXTV5KcLlqAWHl5q5WYRfnNRGSmOZmOZ1T6Gy7A99mOZfqungmZMpMmCVJ8ZA==}
     engines: {node: ^10 || ^12 || >=14}
     dependencies:
       nanoid: 3.3.3
@@ -1354,8 +1363,8 @@ packages:
       glob: 7.2.0
     dev: true
 
-  /rollup/2.70.2:
-    resolution: {integrity: sha512-EitogNZnfku65I1DD5Mxe8JYRUCy0hkK5X84IlDtUs+O6JRMpRciXTzyCUuX11b5L5pvjH+OmFXiQ3XjabcXgg==}
+  /rollup/2.71.1:
+    resolution: {integrity: sha512-lMZk3XfUBGjrrZQpvPSoXcZSfKcJ2Bgn+Z0L1MoW2V8Wh7BVM+LOBJTPo16yul2MwL59cXedzW1ruq3rCjSRgw==}
     engines: {node: '>=10.0.0'}
     hasBin: true
     optionalDependencies:
@@ -1526,9 +1535,9 @@ packages:
         optional: true
     dependencies:
       esbuild: 0.14.38
-      postcss: 8.4.12
+      postcss: 8.4.13
       resolve: 1.22.0
-      rollup: 2.70.2
+      rollup: 2.71.1
       sass: 1.51.0
     optionalDependencies:
       fsevents: 2.3.2
