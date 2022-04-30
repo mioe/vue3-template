@@ -17,6 +17,9 @@ import { Checkbox, Radio } from '@mioe/packages'
 	<Radio>
 		ddd
 	</Radio>
+	<button class="btn-primary--tiny">
+		ff
+	</button>
 </template>
 
 <style>
